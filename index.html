@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Casey-Full Stack Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction Section-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Tim Casey</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack Developer
+      </p>
+      <img
+        src="img/tim.jpeg"
+        alt="a picture of Tim smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!--Youtube Video-->
+
+    <div class="responsive-video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/1ZDUrigYdqI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Research</h3>
+          <p>
+            I bring experience in working with users to collect and analyze
+            information to help inform design and development procedures. I will
+            help to find out who the target users are, what their needs are and
+            develop a strategy that will allow us to answer those questions
+            effectively and efficiently.
+          </p>
+        </div>
+        <!--/service-->
+
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            I have the skill set necessary to successfully manage the size and
+            scope of any design process, from developing hand drawn sketches and
+            low-fidelity wireframes in Balsamiq, to finalizing high-fidelity
+            prototypes in Adobe Illustrator, Photoshop, Figma and/or Sketch.
+          </p>
+        </div>
+        <!--/service-->
+
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            I am proficient in HTML, CSS, Javascript and the MERN stack. I am
+            knowledgeable in various front-end frameworks, most notably
+            Bootstrap, Flexbox and CSS Grid. I specialize in developing
+            intuitive user interfaces that make sense, are easy to use and bring
+            joy to my users.
+          </p>
+        </div>
+        <!--/service-->
+      </div>
+      <!--/services-->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer and Developer based out of Manhattan/seeking remote
+        opportunities
+      </p>
+
+      <div class="about-me__body">
+        <p></p>
+        <p></p>
+      </div>
+
+      <img
+        src="img/timwork.png"
+        alt="Tim working on laptop"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle">Projects completed as a student with MIT</p>
+
+      <div class="portfolio">
+        <!--Portfolio Item 01-->
+        <a href="bustracker.html" class="portfolio__item">
+          <img src="img/bus.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!--Portfolio Item 02-->
+        <a href="eyes.html" class="portfolio__item">
+          <img src="img/eyes.jpeg" alt="" class="portfolio__img" />
+        </a>
+        <!--Portfolio Item 03-->
+        <a href="pacman.html" class="portfolio__item">
+          <img src="img/pacman.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:timothy.e.casey@gmail.com" class="footer-link"
+        >timothy.e.casey@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/timothyecasey/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/tcas2162"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

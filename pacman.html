@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Casey-Full Stack Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction Section-->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>PacMen Factory Exercise</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        A Factory Exercise To Generate Pacmen In Javascript
+      </p>
+      <img src="img/pacman.jpg" alt="Pacman img" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        For this factory exercise, I created an array that stores PacMen and
+        generates them on the screen with the click of a button. They freely
+        move around the page, each at their own pace. Each time a PacMan is
+        created, that action pushes it on to the end of the array. The images
+        are positioned in the DOM, essentially a mirror in the code of what is
+        occurring in the DOM.
+      </p>
+      <p>
+        There are no dependencies that need to be installed to run this program.
+        When you click on the page, you will see a blank page, save for two
+        buttons that say "Add PacMan" and "Start Game." Clicking "Start Game
+        will start the movement of the PacMen around the page. A limitless
+        number of PacMen can be added before or during the game. They all move
+        at random velocities in random directions throughout the page. Collision
+        detection is enabled both horizontally and vertically, preventing the
+        Pacmen from going off-screen and helping each one to retain control of
+        its position and velocity. The PacMen are generated with an <img /> tag
+        and added to the DOM.
+      </p>
+
+      <p>
+        In future revisions to this exercise, I'd like to build out a fully
+        playable PacMan game in Javascript-ideally complete with the original
+        first level maze, ghosts and powerups-in order to exemplify my increased
+        skill set and knowledge of the Jacascript language.
+      </p>
+
+      <p>
+        To view the GitHub repository for this exercise, please click
+        <a target="_blank" href="https://github.com/tcas2162/pacmen-factory"
+          >here</a
+        >.
+      </p>
+
+      <p>
+        <a target="_blank" href="https://tcas2162.github.io/pacmen-factory/"
+          >Click Here</a
+        >
+        for an interactive demonstration of this exercise in action.
+      </p>
+      <p>
+        <a href="index.html">Click Here</a>
+        to return to the home page.
+      </p>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:timothy.e.casey@gmail.com" class="footer-link"
+        >timothy.e.casey@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/timothyecasey/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/tcas2162"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
